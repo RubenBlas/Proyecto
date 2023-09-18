@@ -1,0 +1,30 @@
+"""
+
+   Rubén Blas Lario
+
+   04/10/2022
+
+   ASIXc M03 UF1 A1
+
+   Descripció:
+
+   Estructura d'un programa informàtic - Algoritmes - Git
+
+   Bla bla bla .....
+
+   Bla bla bla .....
+
+   Bla bla bla .....
+
+"""
+
+a = "Aquesta cadena" \
+
+   "en dues línies"
+
+#Estructura de control. Alternativa simple
+
+if a:
+
+   print(a); print(a);
+
