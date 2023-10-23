@@ -14,16 +14,15 @@ Tenint en compte, que la lletra a i A és l'1, consecutivament fins a la lletra 
 
 """
 
+cadena = input("Dime una palabra")
+nueva_cadena = ""
 
-#Demana una paraula
-palabra = input("inserte una palabra")
-
-
-
-for letra in palabra:
+for letra in cadena:
     if letra in "aeiouAEIOU":
+        # Obtén la posición de la vocal en "aeiouAEIOU"
         posicion = "aeiouAEIOU".index(letra)
-        letra = "1234512345"[posicion]
-
-
-print(palabra)
+        # Obtén el número equivalente en "1234512345"
+        numero_correspondiente = "1234512345"[posicion]
+        nueva_cadena += numero_correspondiente
+    else:
+        nueva_cadena += letra

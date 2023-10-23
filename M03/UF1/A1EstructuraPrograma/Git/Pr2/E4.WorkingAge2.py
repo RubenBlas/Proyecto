@@ -13,11 +13,21 @@ Descripció: E4. WorkingAge (2 punts)
 Escriu un programa que llegeixi l'edat de l'usuari i mostri si té edat per treballar, l'edat mínima per treballar legalment és 16 i suposarem l'edat màxima als 65.
 
 """
-Edad = int(input("Edad?"))
-Emin = 16
-Emax = 65
-
-if Emin <= Edad <= Emax:
-    print("A trabajar!")
+"""
+Ruben Blas Lario, Iker Blazquez Valverde, Oscar Bravo Lòpez
+09/10/2023
+Asixc 1A M01 UF1 Pr2
+descripcion:Escriu un programa que llegeixi l'edat de l'usuari i mostri si té edat per treballar, l'edat mínima per treballar legalment és 16 i suposarem l'edat màxima als 65.
+"""
+#variables
+Edad=int(input("cuantos años tienes?\n"))
+#codigo
+if Edad>0 and Edad<150:
+    if Edad>=16 and Edad<=65:
+        print("puedes trabajar")
+    elif Edad<16:
+        print("eres muy joven")
+    else:
+        print("eres muy mayor")
 else:
-    print("Tu no puedes trabajar")
+    print("edad invalida")

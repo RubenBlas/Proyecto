@@ -9,7 +9,5 @@ L'usuari escruiu un número enter:
 
     Per exemple, si entra el 4. El programa ha de mostrar la frase "Després ve el 5".
  """
-
-print("Escriu un numero")
-Numero = input()
+Numero = input("Escriu un numero ")
 print("Després ve el " + str(int(Numero) + 1))

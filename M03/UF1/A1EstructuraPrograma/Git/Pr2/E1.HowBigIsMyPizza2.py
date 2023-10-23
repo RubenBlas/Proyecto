@@ -1,29 +1,20 @@
 """
-
-Rubén Blas Lario
-
-12/09/2023
-
-ASIXc M03 UF1 PR2
-
-Descripció: E4. WorkingAge (2 punts)
-
-
- (2 punts)
-Escriu un programa que llegeixi l'edat de l'usuari i mostri si té edat per treballar, l'edat mínima per treballar legalment és 16 i suposarem l'edat màxima als 65.
-
+Ruben Blas Lario, Iker Blazquez Valverde, Oscar Bravo Lòpez
+09/10/2023
+Asixc 1A M01 UF1 Pr2
+Demanar el diàmetre d'una pizza rodona i imprimeix la seva superfície.
+Pots usar Math.PI per escriure el valor de Pi.
 """
+#Variables
 
 import math
+pi=math.pi
+diametrePizza= int(input("Dona'm el diametre de la pizza per trobar l'àrea:"))
 
-# Solicitar el diámetro de la pizza al usuario
-diametro = float(input("Ingrese el diámetro de la pizza en centímetros: "))
+#Operació
 
-# Calcular el radio (la mitad del diámetro)
-radio = diametro / 2
+calcularArea= diametrePizza*pi
 
-# Calcular la superficie de la pizza
-superficie = math.pi * (radio ** 2)
+#utilitzo la comanda round(0,2) per rodonar a dos decimals.
 
-# Imprimir la superficie de la pizza
-print(f"La superficie de la pizza es {superficie:.2f} centímetros cuadrados")
+print("El volum de la pizza és",round(calcularArea,2),"m^3")

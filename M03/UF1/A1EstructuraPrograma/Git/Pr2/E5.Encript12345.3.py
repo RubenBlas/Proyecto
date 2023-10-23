@@ -1,37 +1,20 @@
-"""
+#variables iniciales
+cadena = input("Dime una palabra")
+nueva_cadena = ""
+i = 0  # Inicializa un índice para recorrer la cadena
 
-Rubén Blas Lario
-
-12/09/2023
-
-ASIXc M03 UF1 PR2
-
-Descripció: E5. Encript12345 (2 punts)
-
-
-Demana una paraula per teclat i mostrar-la per pantalla, canviar les vocals per als numèrics 1, 2, 3, 4 o 5.
-Tenint en compte, que la lletra a i A és l'1, consecutivament fins a la lletra u i U que és el 5.
-
-"""
-
-
-#Demana una paraula
-palabra = input("inserte una palabra")
-
-palabra = palabra.replace("aeiouAEIOU".index(palabra))
-
-nuevaPalabra
-
-for letra in palabra:
+while i < len(cadena):
+    letra = cadena[i]
+    
     if letra in "aeiouAEIOU":
+        # Obtén la posición de la vocal en "aeiouAEIOU"
         posicion = "aeiouAEIOU".index(letra)
-        letra = "1234512345"[posicion]
+        # Obtén el número equivalente en "1234512345"
+        numero_correspondiente = "1234512345"[posicion]
+        nueva_cadena += numero_correspondiente
+    else:
+        nueva_cadena += letra
+    
+    i += 1  # Incrementa el índice para avanzar a la siguiente letra
 
-print(palabra)
-letraA = a
-letraE =
-letraI =
-letraO =
-letraU =
-
-
+print("La nueva cadena es:", nueva_cadena)

@@ -1,6 +1,6 @@
 """
 
-Javier Amaya Boira
+Rubén Blas Lario
 
 12/09/2023
 
@@ -27,6 +27,7 @@ FinSi
 Escriure "Programa acabat";
 
 FinProceso
+o eso creo
 """
 
 # Programa que demana l'edat i diu si ets major d'edat.

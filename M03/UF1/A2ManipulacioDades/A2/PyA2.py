@@ -18,5 +18,3 @@ print("Gracias por comprar " + str(Unidades) + "xPizzas, el precio total equival
 print("En su proxima compra tendra una oferta del " + str(round(Descuento, 1)) + "%.")
 print("Cada una de nuestras pizzas tiene un tamaño total de " + str(round(PizzaArea)) + " cm²!")
 
-
-Longitud =

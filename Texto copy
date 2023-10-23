@@ -1,0 +1,46 @@
+"""
+
+   Rubén Blas Lario
+
+   04/10/2022
+
+   ASIXc M03 UF1 A1
+
+   Descripció:
+
+   Estructura d'un programa informàtic - Algoritmes - Git
+
+   Bla bla bla .....
+
+   Bla bla bla .....
+
+   Bla bla bla .....
+
+"""
+
+
+"en dues línies"
+
+#Estructura de control. Alternativa simple
+h = int(input("horas?"))
+m = int(input("minutos?"))
+
+horas = m//60+h
+minutos = (m%60)*60
+
+ns = 1
+
+if len(str(minutos)) == 0:
+    minutos = "0" + str(minutos)
+else:
+    ns = 1
+if len(str(horas)) == 0:
+    horas = "0" + str(horas)
+else:
+    ns = 1
+    
+print(str((horas))+":"+str(minutos))
+
+
+   
+
