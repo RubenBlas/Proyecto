@@ -1,0 +1,17 @@
+Enters (int)
+	Representen tots els nombres enters (positius, negatius i 0), sense part decimal. En Python 3 aquest tipus no té limitació d'espai.
+	
+Reals (float)
+	Serveix per a representar els nombres reals, tenen una part decimal i una altra decimal. Normalment s'utilitza per a la seva implementació un tipus double de C.
+Exemples	>>> entero = 7	>>> type(entero)	<class 'int'>	>>> real = 7.2	>>> type (real)	<class 'float' 
+
+Operadors aritmètics
+	+ : Suma dos números	- : Resta dos números	* : Multiplica dos números	/ : Divideix dos números, el resultat és float.	// : Divisió sencera	% : Mòdul o resta de la divisió	** : Potència	+, - : Operadores unàries positivo i negatiu 
+
+
+Funciones predefinides que treballen amb números:
+	abs(x): Retorna al valor absolut d'un número	divmod(x,y): Prem com a paràmetre dos números, i retorna una tupla amb dos valors, la divisió sencera, i el mòdul o resta de la divisió.	hex(x): Retorna una cadena amb la representació hexadecimal del número que rep com a paràmetre.	bin(x): Retorna una cadena amb la representació binària del número que rep com a paràmetre.	pow(x,y): Retorna la potència de la base x elevat a l'exponent i. És similar a l'operador **.	round(x,[y]): Retorna un nombre real (float) que és l'arrodoniment del número rebut com a paràmetre, podem indicar un paràmetre opcional que indica el nombre de decimals en l'arrodoniment. 
+	Exemples:	>>> abs(-7)	7	>>> divmod(7,2)	(3, 1)	>>> hex(255)	'0xff'	>>> pow(2,3)	8	>>> round(7.567,1)	7.6
+
+Guió baix en els literals numèrics
+	Els números es poden escriure així: 11111111, o com segueix: 11_111_111.
